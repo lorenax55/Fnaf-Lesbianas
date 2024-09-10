@@ -1,0 +1,14 @@
+join Chica 0 [animation="Bounce In" wait="true"]
+Chica: (OMG I'm so nervous)
+[wait_input]
+join Roxy 4 [animation="Bounce In" wait="true"]
+Roxy: Hey pretty girl
+- Horny
+	Chica: You look as tasty as a pizza, let me take a bite.
+	Roxy: Get over here you gorgeous wierdo
+- Lovely
+	Chica: Hiiii! Your hair looks nice! I made you a cupcake.
+	Roxy: Thanks! I spent a lot of time in the saloon to look this nice, you know?
+- William Afton
+	Chica: I love killing children
+	Roxy: Haha you are purple like my makeup.

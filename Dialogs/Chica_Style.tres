@@ -1,0 +1,50 @@
+[gd_resource type="Resource" script_class="DialogicStyle" load_steps=12 format=3 uid="uid://bfxflpstkgd5p"]
+
+[ext_resource type="Resource" uid="uid://eksqmui1hed6" path="res://Dialogs/New_style.tres" id="1_840sb"]
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="2_fv1j1"]
+[ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style.gd" id="3_uuy2g"]
+
+[sub_resource type="Resource" id="Resource_ofoif"]
+script = ExtResource("2_fv1j1")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_8afdk"]
+script = ExtResource("2_fv1j1")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_dnrjt"]
+script = ExtResource("2_fv1j1")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_o6txk"]
+script = ExtResource("2_fv1j1")
+overrides = {
+"box_animation_in": "1",
+"box_animation_new_text": "0",
+"box_color_custom": "Color(0.753906, 0.388733, 0.722524, 1)",
+"mirror_bubble": "false"
+}
+
+[sub_resource type="Resource" id="Resource_57wo7"]
+script = ExtResource("2_fv1j1")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_h7epy"]
+script = ExtResource("2_fv1j1")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_ytr3e"]
+script = ExtResource("2_fv1j1")
+overrides = {}
+
+[sub_resource type="Resource" id="Resource_pksy7"]
+script = ExtResource("2_fv1j1")
+overrides = {}
+
+[resource]
+script = ExtResource("3_uuy2g")
+name = "Chica_Style"
+inherits = ExtResource("1_840sb")
+base_overrides = {}
+layers = Array[ExtResource("2_fv1j1")]([SubResource("Resource_ofoif"), SubResource("Resource_8afdk"), SubResource("Resource_dnrjt"), SubResource("Resource_o6txk"), SubResource("Resource_57wo7"), SubResource("Resource_h7epy"), SubResource("Resource_ytr3e"), SubResource("Resource_pksy7")])
+metadata/_latest_layer = 3
