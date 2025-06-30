@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="1_ov653"]
 [ext_resource type="PackedScene" uid="uid://c1k5m0w3r40xf" path="res://Dialogs/FullBackground/custom_full_background_layer.tscn" id="2_g8kdm"]
 [ext_resource type="PackedScene" uid="uid://cy1y14inwkplb" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn" id="3_v1pqr"]
-[ext_resource type="PackedScene" uid="uid://cn674foxwedqu" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn" id="4_dwiv8"]
+[ext_resource type="PackedScene" uid="uid://cn674foxwedqu" path="res://Dialogs/InputCatcher/custom_full_advance_input_layer.tscn" id="4_3n1s2"]
 [ext_resource type="PackedScene" uid="uid://bquja8jyk8kbr" path="res://Dialogs/VisualNovelTextbox/custom_vn_textbox_layer.tscn" id="5_k6r50"]
 [ext_resource type="PackedScene" uid="uid://dsbwnp5hegnu3" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn" id="6_71qo7"]
 [ext_resource type="PackedScene" uid="uid://dhk6j6eb6e3q" path="res://Dialogs/CenteredChoices/custom_vn_choice_layer.tscn" id="7_xvb1i"]
@@ -23,7 +23,7 @@ overrides = {}
 
 [sub_resource type="Resource" id="Resource_t62dp"]
 script = ExtResource("1_ov653")
-scene = ExtResource("4_dwiv8")
+scene = ExtResource("4_3n1s2")
 overrides = {}
 
 [sub_resource type="Resource" id="Resource_a7o8o"]
@@ -36,7 +36,8 @@ overrides = {
 "box_color_use_global": "false",
 "box_panel": "\"vn_textbox_default_panel.tres\"",
 "box_size": "Vector2(550, 90)",
-"mirror_bubble": "true"
+"mirror_bubble": "true",
+"next_indicator_enabled": "false"
 }
 
 [sub_resource type="Resource" id="Resource_5lt06"]
@@ -47,7 +48,11 @@ overrides = {}
 [sub_resource type="Resource" id="Resource_ly2s1"]
 script = ExtResource("1_ov653")
 scene = ExtResource("7_xvb1i")
-overrides = {}
+overrides = {
+"boxes_stylebox_hovered": "\"res://Dialogs/CenteredChoices/My_choice_panel_hovered.tres\"",
+"boxes_stylebox_normal": "\"res://Dialogs/CenteredChoices/My_choice_panel_normal.tres\"",
+"boxes_stylebox_pressed": "\"res://Dialogs/CenteredChoices/My_choice_panel_pressed.tres\""
+}
 
 [sub_resource type="Resource" id="Resource_einua"]
 script = ExtResource("1_ov653")
@@ -57,11 +62,16 @@ overrides = {}
 [sub_resource type="Resource" id="Resource_7opa5"]
 script = ExtResource("1_ov653")
 scene = ExtResource("9_mdarx")
-overrides = {}
+overrides = {
+"show_all_choices": "false",
+"show_close_button": "false",
+"show_join_and_leave": "false",
+"show_open_button": "false"
+}
 
 [resource]
 script = ExtResource("10_g4s6h")
 name = "New_style"
 base_overrides = {}
 layers = Array[ExtResource("1_ov653")]([SubResource("Resource_ec3g5"), SubResource("Resource_blia0"), SubResource("Resource_t62dp"), SubResource("Resource_a7o8o"), SubResource("Resource_5lt06"), SubResource("Resource_ly2s1"), SubResource("Resource_einua"), SubResource("Resource_7opa5")])
-metadata/_latest_layer = 3
+metadata/_latest_layer = 5

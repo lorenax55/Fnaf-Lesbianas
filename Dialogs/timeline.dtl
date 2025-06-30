@@ -1,14 +1,78 @@
 join Chica 0 [animation="Bounce In" wait="true"]
 Chica: (OMG I'm so nervous)
-[wait_input]
+Chica: I've been really looking forward this date. I hope I look good!
+[wait time="0.0"]
 join Roxy 4 [animation="Bounce In" wait="true"]
-Roxy: Hey pretty girl
-- Horny
-	Chica: You look as tasty as a pizza, let me take a bite.
-	Roxy: Get over here you gorgeous wierdo
+Roxy: (Smirking) Hey pretty girl. How are you doing?
+- Shy
+	Chica: H-hi! I'm fine, glad that you made it!
+	[wait_input]
+	Roxy: Sure, today was a busy day and I needed a break.
+	[wait_input]
+	Chica: (Blushes a little) Yes, let's chill. 
+	[wait_input]
+	Roxy: You’re cute when you’re nervous, you know?
 - Lovely
-	Chica: Hiiii! Your hair looks nice! I made you a cupcake.
-	Roxy: Thanks! I spent a lot of time in the saloon to look this nice, you know?
-- William Afton
-	Chica: I love killing children
-	Roxy: Haha you are purple like my makeup.
+	Chica: Hiiii! Your hair looks super nice today! 
+	[wait_input]
+	Roxy: Thanks! I spent a lot of time in the saloon to look this nice, you know? (Does a little hair flip).
+- Hungry
+	Chica: Who wants candy!
+	[wait_input]
+	Roxy: Alright, someone is hungry.
+	[wait_input]
+	Roxy: You know I don't usually eat, but don’t be shy.
+
+[wait_input]
+Chica: Actually, I made you a cupcake too!
+[wait_input]
+Roxy: A cupcake? You made it yourself?
+[wait_input]
+Chica: Yeah, by hand! Normally, the Staffbots handle this kind of thing, but I wanted to do it myself... for you.
+[wait_input]
+Roxy: (Surprised, but touched) You made it... just for me? That’s sweet.
+[wait_input]
+Chica: I know you don’t usually eat, but... I thought maybe you'd try it?
+[wait_input]
+Roxy: (Grinning) Well, I guess I can make an exception. Let’s see how good you are at baking.
+[wait_input]
+(Chica watches nervously as Roxy takes a bite of the cupcake.)
+[wait_input]
+Roxy: Hmm, not bad. For someone who doesn’t usually bake, you did a pretty good job.
+[wait_input]
+Chica: (Blushing) I’m so glad you like it!
+[wait_input]
+Roxy: Don’t get used to me eating stuff though. But for you, maybe I’ll make it a habit... sometimes.
+[wait_input]
+(Chica beams, feeling proud of her effort. The mood between them lightens.)
+[wait_input]
+
+Roxy: Cool place you have here.
+[wait_input]
+Chica: Thanks! It's like my second nest, you know, apart from my green room.
+[wait_input]
+Roxy: Sure. So, is this a date date, or are we hanging out like gal pals?
+- Lie like a useless lesbian
+	Chica: ...
+	[wait_input]
+	Chica: I'm your friend, why would this be any different from any girly hangout?
+	[wait_input]
+- Be a brave lesbian
+	Chica: This is clearly a date. I actually really like you.
+	[wait_input]
+	Chica: I thought I was super clear when I asked you out, are we cool with that?
+	[wait_input]
+	Roxy: Sure sure, super cool. Didn’t think you’d actually admit it, though. Guess I’ll have to rethink my bets.
+	[wait_input]
+- Not a furry
+	Chica: Roxy we are both pieces of metal running a complex software.
+	[wait_input]
+	Chica: We are not capable of having feelings nor going on dates.
+	[wait_input]
+	Roxy: ...
+	[wait_input]
+	Chica: Besides I'm not a furry.
+	[wait_input]
+	Roxy: Well, good to know... I was starting to worry you might print out fursona art or something.
+[wait time="0.0"]
+[wait_input hide_text="false"]
